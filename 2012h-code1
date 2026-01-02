@@ -705,7 +705,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#d4dfea";
 
-document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+document.getElementById("header").src = "https://i.postimg.cc/RC1cskdm/obamahuntsman-banner.jpg";
 
 document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
 
