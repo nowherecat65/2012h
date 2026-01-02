@@ -51,7 +51,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Utah",
             "priority": 2,
-            "description": "<p>Mitt Romney enters the 2012 campaign as the Republican challenger. He has a record of public service as the former Governor of Massachusetts and he also headed Bain Capital for many years. He is generally perceived as a pro-business moderate and a competent manager.</p><p>Due to Romney's evolving positions on health care and social issues over the years, some conservatives question his sincerity. His challenge is to win that faction without alienating mainstream voters.",
+            "description": "<p>The scion of Mormon royalty, Jon Huntsman only barely won the nomination this year. In a party controlled by the revolutionary angst of the Tea Party, very few expected him to be the Republican nominee, but thanks to the lack of entry by fellow moderate Mitt Romney, Huntsman was able to amass the support of the party establishment, their money, and the Beltway’s friendly media. With a wide field including Santorum, Gingrich, and Paul as competitors, he was able to finish the battle in May.</p><p>Huntsman enters the 2012 campaign with a host of issues, including open tension with the conservative base of the party, while also enjoying broad favorability among independents, and even many moderate Democrats. Will he be able to lead his party into the White House, or will his campaign falter?",
             "color_hex": "#aa285c",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
@@ -220,7 +220,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Paul Ryan has gained national attention with his work on the federal budget as a Congressman from Wisconsin. His advocacy for deficit reduction appeals to a wide range of moderate conservatives, and his home state of Wisconsin promises to be a close call on election night.</p><p>On the other hand, Ryan has only served as a Congressman and has little experience running in a national or even a statewide election.</p>",
+            "description_as_running_mate": "<p>Mike Pence, a Tea Party favorite and avowed evangelical, is the obvious solution to the underlying issues the Huntsman campaign has with the party’s base. Pence, who has served as a congressman from Indiana for a little over a decade, and before that as a conservative talk-radio host, was planning on making a run for governor this year, but is apparently ready to join the presidential ticket.</p><p>While Pence does fulfill many of the expectations of a running mate, he isn’t exactly known as a particularly compelling speaker, nor would he, by himself, solve the bigger issues the Huntsman campaign has with the party’s base. Still, he would serve to begin mending bridges.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -250,29 +250,6 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 33,
-        "fields": {
-            "first_name": "Marco",
-            "last_name": "Rubio",
-            "election": 3,
-            "party": "Republican",
-            "state": "Florida",
-            "priority": 10,
-            "description": "n/a",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/marco-rubio-2012.jpg",
-            "electoral_victory_message": "n/a",
-            "electoral_loss_message": "n/a",
-            "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>A recently elected Senator from Florida, Marco Rubio brings strong political connections from that state. As a member of the Cuban-American community, he could help blunt the charge that Romney is indifferent to the rapidly-growing Hispanic community.</p><p>Rubio is also considered more conservative than some of Romney's other options, and is on good terms with the Tea Party movement. Florida is another must-win state for the Republicans in 2012.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
         "pk": 34,
         "fields": {
             "first_name": "Hillary",
@@ -290,29 +267,6 @@ campaignTrail_temp.candidate_json = [
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
             "description_as_running_mate": "<p>Hillary Clinton would be a change for Obama if he chose her as his running mate. Her current home state is New York, though she lived in Arkansas for many years. Her husband is former President Bill Clinton.</p><p>Clinton has served as Secretary of State since 2009 and won high praise for her performance, and she would bring added star power to Obama's reelection bid. The risks include offending Joe Biden as well as making Obama appear indecisive to some voters.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 37,
-        "fields": {
-            "first_name": "Tim",
-            "last_name": "Pawlenty",
-            "election": 3,
-            "party": "Republican",
-            "state": "Minnesota",
-            "priority": 12,
-            "description": "n/a",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/tim-pawlenty-2012.jpg",
-            "electoral_victory_message": "n/a",
-            "electoral_loss_message": "n/a",
-            "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Tim Pawlenty served as the Governor of Minnesota for eight years and briefly sought the Republican nomination in 2011. He brings a reputation as a moderate and a strong manager, and could help burnish Romney's credentials in the upper Midwest.</p><p>However, if Romney wants to unite the conservative base of his party, Pawlenty may not be the best choice.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -592,22 +546,6 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 16,
             "running_mate": 34
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 5,
-        "fields": {
-            "candidate": 17,
-            "running_mate": 33
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 6,
-        "fields": {
-            "candidate": 17,
-            "running_mate": 37
         }
     },
     {
