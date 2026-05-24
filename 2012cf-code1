@@ -666,7 +666,6 @@ style.innerHTML = `
   #candidate_description_window,
   #running_mate_description_window,
   #election_description_window {
-    background: linear-gradient(to bottom, #ffffff 0%, #DFE7F1 52%, #e6edf5 100%) !important;
     background-image: repeating-radial-gradient(rgba(22, 38, 56, 0.012) 0.5px, transparent 1px);
     background-blend-mode: multiply;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.24);
@@ -754,6 +753,10 @@ style.innerHTML = `
   }
 
   #inner_window_4 {
+    background-color: #E4EBF4;
+  }
+
+  #inner_window_2 {
     background-color: #E4EBF4;
   }
 
