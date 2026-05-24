@@ -686,7 +686,7 @@ style.innerHTML = `
   }
 
   #map_container {
-    background-color: #DFE7F1 !important;
+    background-color: #F8F8F8 !important;
     border-radius: 3px;
     box-shadow: none;
     text-shadow: none;
@@ -746,6 +746,18 @@ style.innerHTML = `
     background-color: #E4EBF4;
   }
 
+  .inner_window_w_desc {
+    background-color: #E4EBF4;
+  }
+
+  #inner_window_3 {
+    background-color: #E4EBF4;
+  }
+
+  #inner_window_4 {
+    background-color: #E4EBF4;
+  }
+
   #state_result_container,
   #menu_container,
   #overall_result_container {
@@ -761,6 +773,6 @@ style.innerHTML = `
 
 document.head.appendChild(style);
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;}</style>";
 
 //#endcode
