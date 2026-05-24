@@ -620,7 +620,7 @@ campaignTrail_temp.temp_election_list = [
 
 jet_data = {
     "headerColor": "#162638",
-    "windowColor": "#f4f7fb",
+    "windowColor": "#DFE7F1",
     "containerColor": "#d4dfea",
     "innerWindowColor": "#ffffff",
     "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
@@ -635,7 +635,7 @@ jet_data = {
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#162638";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f4f7fb";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#DFE7F1";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
@@ -666,7 +666,7 @@ style.innerHTML = `
   #candidate_description_window,
   #running_mate_description_window,
   #election_description_window {
-    background: linear-gradient(to bottom, #ffffff 0%, #f4f7fb 52%, #e6edf5 100%) !important;
+    background: linear-gradient(to bottom, #ffffff 0%, #DFE7F1 52%, #e6edf5 100%) !important;
     background-image: repeating-radial-gradient(rgba(22, 38, 56, 0.012) 0.5px, transparent 1px);
     background-blend-mode: multiply;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.24);
@@ -686,7 +686,7 @@ style.innerHTML = `
   }
 
   #map_container {
-    background-color: #f4f7fb !important;
+    background-color: #DFE7F1 !important;
     border-radius: 3px;
     box-shadow: none;
     text-shadow: none;
@@ -695,7 +695,7 @@ style.innerHTML = `
   }
 
   .inner_window_question {
-    background: linear-gradient(to bottom, #ffffff 0%, #f4f7fb 52%, #e6edf5 100%) !important;
+    background: linear-gradient(to bottom, #ffffff 0%, #DFE7F1 52%, #e6edf5 100%) !important;
     border-radius: 2.15px;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.24);
     box-shadow:
@@ -711,7 +711,7 @@ style.innerHTML = `
   .overlay_window,
   .modal-content,
   .modal-body {
-    background: linear-gradient(to bottom, #ffffff 0%, #f4f7fb 52%, #e6edf5 100%) !important;
+    background: linear-gradient(to bottom, #ffffff 0%, #DFE7F1 52%, #e6edf5 100%) !important;
     background-image: repeating-radial-gradient(rgba(22, 38, 56, 0.012) 0.5px, transparent 1px);
     background-blend-mode: multiply;
     border-radius: 4px;
