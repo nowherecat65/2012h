@@ -619,7 +619,7 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#162638",
+    "headerColor": "#243C56",
     "windowColor": "#f4f7fb",
     "containerColor": "#d4dfea",
     "innerWindowColor": "#ffffff",
@@ -633,7 +633,7 @@ jet_data = {
 
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#162638";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#243C56";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f4f7fb";
 
@@ -653,11 +653,11 @@ style.id = 'dynamic-style';
 
 style.innerHTML = `
   .campaign_trail_start_emphasis {
-    background-color: #162638;
+    background-color: #243C56;
   }
 
   a:-webkit-any-link {
-    color: #162638;
+    color: #243C56;
   }
 
   #opponent_selection_description_window,
@@ -727,7 +727,7 @@ style.innerHTML = `
       #1f344c 20%,
       #1b2f45 40%,
       #182a3f 60%,
-      #162638 80%,
+      #243C56 80%,
       #111d2b 100%
     );
     border: 1.5px solid #111d2b;
@@ -743,14 +743,14 @@ style.innerHTML = `
   }
 
   #campaign_sign {
-    background-color: #162638;
+    background-color: #243C56;
     border-color: #111d2b;
   }
 
   #state_result_container,
   #menu_container,
   #overall_result_container {
-    background-color: #162638;
+    background-color: #243C56;
   }
 
   #state_info h3,
