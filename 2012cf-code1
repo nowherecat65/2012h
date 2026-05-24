@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 3,
         "fields": {
             "year": 2012,
-            "summary": "<p>Barack Obama attempts to win reelection while Mitt Romney hopes to bring a more conservative vision to the White House. The poor economy and Obama's signature health care initiatives loom large in the 2012 election.</p> <ul><li>Obama will attempt to make the case that his stewardship prevented economic disaster after the 2008 financial crisis.</li><li>Romney will try to frame his business and executive experience as a contrast to the background and results of Obama.</li></ul>",
+            "summary": "<p>Barack Obama attempts to win reelection while Jon Huntsman hopes to offer the country a more moderate Republican alternative. The poor economy, Obama’s signature health care initiatives, and Huntsman’s uneasy relationship with the conservative base loom large in the 2012 election.</p> <ul><li>Obama will attempt to make the case that his stewardship prevented economic disaster after the 2008 financial crisis.</li><li>Huntsman will try to frame his executive experience, foreign policy background, and broad appeal to independents as a contrast to the ideology and results of Obama.</li></ul>",
             "image_url": "https://files.catbox.moe/dmv2b3.jpg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
