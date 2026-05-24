@@ -742,9 +742,8 @@ style.innerHTML = `
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.22);
   }
 
-  #campaign_sign {
-    background-color: #162638;
-    border-color: #111d2b;
+  .inner_window_sign_display {
+    background-color: #E4EBF4;
   }
 
   #state_result_container,
