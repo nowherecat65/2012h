@@ -678,6 +678,14 @@ style.innerHTML = `
     overflow: hidden;
   }
 
+  .inner_window_sign_display {
+    background-color: #ffffff;
+    background-image: repeating-radial-gradient(rgba(22, 38, 56, 0.012) 0.5px, transparent 1px);
+    background-blend-mode: multiply;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.24);
+    border-radius: 3.2px;
+  }
+
   #election_summary {
     width: auto;
     z-index: 0;
@@ -686,15 +694,12 @@ style.innerHTML = `
   }
 
   #map_container {
-    background: linear-gradient(to bottom, #ffffff 0%, #f4f7fb 52%, #e6edf5 100%) !important;
-    border-radius: 2.15px;
-    text-shadow: 0 0 1px rgba(255, 255, 255, 0.24);
-    box-shadow:
-      inset 0 0 2px rgba(0, 0, 0, 0.08),
-      0 0 0 1px #162638;
+    background-color: #f4f7fb !important;
+    border: 1px solid #d4dfea;
+    border-radius: 3px;
+    box-shadow: none;
+    text-shadow: none;
     position: relative;
-    background-image: repeating-radial-gradient(rgba(22, 38, 56, 0.012) 0.5px, transparent 1px);
-    background-blend-mode: multiply;
     overflow: hidden;
   }
 
