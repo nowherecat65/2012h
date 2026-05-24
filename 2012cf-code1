@@ -678,14 +678,6 @@ style.innerHTML = `
     overflow: hidden;
   }
 
-  .inner_window_sign_display {
-    background-color: #ffffff;
-    background-image: repeating-radial-gradient(rgba(22, 38, 56, 0.012) 0.5px, transparent 1px);
-    background-blend-mode: multiply;
-    text-shadow: 0 0 1px rgba(255, 255, 255, 0.24);
-    border-radius: 3.2px;
-  }
-
   #election_summary {
     width: auto;
     z-index: 0;
